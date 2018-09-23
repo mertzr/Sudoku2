@@ -1,6 +1,7 @@
-public int[][] getPuzzle(){
+class getPuzzle {
+	
+	public int[][] getPuzzle(){
 		return LatinSquare;
 	}
-	
 	
 }
