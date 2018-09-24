@@ -277,7 +277,7 @@ public class LatinSquare {
 		 
 		 for (; j<jMax;j++) {
 			 for(i=(r%iSqrtsize)*iSqrtSize;i<iMax;i++){
-				 reg[iCnt++]=super.getLatinSquare()[j][i];
+				 reg[iCnt++]=super.getLatinSquare()[i][j];
 			 }
 			 
 		 }
