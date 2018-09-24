@@ -266,4 +266,22 @@ public class LatinSquare {
 		return false;
 
 	}
+	public int[] getRegion(){ 
+		 int[] reg= new int[super.getLatinSquare().length];
+		 
+		 int i=(r%iSqrtSize)*iSqrtSize;
+		 int j=(r/iSqrtSize)*iSqrtSize;
+		 int iMax=i+iSqrtSize;
+		 int jMax+j+iSqrtSize;
+		 int iCnt=0;
+		 
+		 for (; j<jMax;j++) {
+			 for(i=(r%iSqrtsize)*iSqrtSize;i<iMax;i++){
+				 reg[iCnt++]=super.getLatinSquare()[j][i];
+			 }
+			 
+		 }
+	 }
 }
+ 
+	 
