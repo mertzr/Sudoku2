@@ -266,7 +266,7 @@ public class LatinSquare {
 		return false;
 
 	}
-	public int[] getRegion(){ 
+	public int[] getRegion(int regionNum){ 
 		 int[] reg= new int[super.getLatinSquare().length];
 		 
 		 int i=(r%iSqrtSize)*iSqrtSize;
